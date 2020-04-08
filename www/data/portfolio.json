@@ -1,0 +1,32 @@
+{
+	"Skills" : {
+		"Tech Known" : "HTML5, CSS3, JavaScript ES5 / ES6, Typescript, NodeJS, Webpack, Babel, JSX, Redux, Android, XML, JSON, Java, C, C++, Cordova",
+		"Databases" : "SQLite, SQL Server 2012, Cloud Db (Parse, Firebase)",
+		"Frameworks" : "AngularJS, ReactJS. Bootstrap, Ionic",
+		"Libraries": "jQuery, D3JS, Highcharts, JointJS, Lodash"
+	},
+	"Experience" : {
+		"Software Developer Consultant" : "Hitachi Consulting (Hyderabad, TS), Sept 2014 – Present"
+	},
+	"Education" : {
+		"B.TECH (Information Technology)" : "Amity University (Noida, UP) | 2010-2014 | 76.80%",
+		"12th" : "DL DAV Model School (Delhi, DL) | 2009-2010 | 78.20%",
+		"10th" : "DL DAV Model School (Delhi, DL) | 2007-2008 | 84.40%"	
+	},
+	"Achievements & Certificates" : [
+		"Top Rated Employee (2016)",
+		"Trained in Ionic, Android, AngularJS frameworks (2015 16)",
+		"Recommended candidate for Indian Navy (2014)",
+		"Summer Internship in Android for 2 months at eLabs India Pvt Ltd (2013)",
+		"Learned Core Java for 2 months at HCL Career Development Centre (2011)"
+	],
+	"Summary" : [
+		"2 years of working exposure to web & mobile world with experience in building User interfaces, Web applications, Websites, RIAs and Mobile apps.",
+		"Technically proficient in frameworks like AngularJS, Bootstrap & Ionic.",
+		"Strong concepts of User Experience, User Centric Design and Responsive Web Design.",
+		"Good understanding of SDLC, Scrum Methodology, & other IT Operations.",
+		"Excellent in team collaboration, adaptation and problem solving along with good communication skills.",
+		"Have successfully delivered over 5 mobile applications & 2 web applications for internal / client / prospect customers.",
+		"Uptodate with market trends. Got working experience in Bluetooth Beacons."
+	]
+}

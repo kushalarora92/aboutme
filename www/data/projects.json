@@ -1,0 +1,38 @@
+{
+	"HITACHI AMERICA, Ltd." : {
+		"designation": "UI DEVELOPER, RIG IN A BOX",
+		"period" : "FEB 2016 – CURRENT",
+		"details" : {
+			"Description" : "Worked on product called Live Insights For Oil Field Operations, wherein my responsibility was to build look & feel of the website showing oil field operations. Also, developed 2 modules from scratch. Team Strength 15.",
+			"Technologies" : "HTML, CSS, JavaScript, JQuery, AngularJS, Bootstrap, Highcharts, D3, JointJS",
+			"Environment" : "Spring Tool Suite, Tomcat v8.0 Server"
+		}
+	},
+	"JACK HENRY & ASSOCIATES" : {
+		"designation": "UI/UX DEVELOPER, PROFIT STARS",
+		"period" : "MAY 2015 – FEB 2016",
+		"details" : {
+			"Description" : "Worked on the UI related issues, style guide based layouting. In a particular sprint, I took care of any issue related to UI/UX, or any development for a particular PBI. Team Strength 9.",
+			"Technologies" : "AngularJS, Bootstrap, TypeScript, JavaScript, CSS, HTML, JSON, .NE",
+			"Environment" : "Visual Studio, Team Foundation Server"
+		}
+	},
+	"VALASSIS" : {
+		"designation": "DEVELOPER, VALASSIS DIGITAL COUPON SERVICE",
+		"period" : "APR 2015 – MAY 2015",
+		"details" : {
+			"Description" : "The digital coupon service application that deals in digitization of product coupons by generating and utilizing the QR code. Bluetooth beacon technology is used to show the usable coupons in the nearby places. The application works on both Android & IOS. Team Strength 6.",
+			"Technologies" : "Ionic, AngularJS, Beacons, HTML, CSS, JavaScript, JSON, Parse, RWD",
+			"Environment" : "Sublime Text, Node Server"
+		}
+	},
+	"HITACHI CONSULTING, IP & INNOVATION" : {
+		"designation": "DEVELOPER, EVENTFUL",
+		"period" : "DEC 2015 – MAY 2015",
+		"details" : {
+			"Description" : "The project deals in delivering complete detailed information about a particular event conducted by an organization via mobile app (Android & IOS). Team Strength 4.",
+			"Technologies" : "Ionic, AngularJS, HTML, CSS, JavaScript",
+			"Environment" : "Sublime Text, Node Server"
+		}
+	}
+}

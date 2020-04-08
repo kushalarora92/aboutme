@@ -1,0 +1,106 @@
+<!-- Loader Imager -->
+<div class="loader" ng-if="loading">
+  <ng-include src="'img/balls.svg'"></ng-include>
+</div>
+
+<div class="container-fluid">
+    <header class="row padding-top-none">
+        <div style="width:100%">
+          <div style="background-color: rgba(0,0,0,0.2); width:60%; margin:0 auto; text-align: center; border-radius: 2px; padding:5px; border: 1px dashed red">
+            Website is still a toddler. Please expect some enhancements soon.
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-5 my-sm-info">
+          <div class="name">
+            Kushal Arora
+          </div>
+          <div class="designation">
+            Software Developer Consultant
+          </div>
+          <div class="designation-info">
+            Web Developer | Mobile Developer
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-7">
+          <div class="row margin-top-md">
+            <div class="col-xs-12 text-right">
+              <a href="mailto:kushalarora92@gmail.com">kushalarora92@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="row margin-top-xs">
+            <div class="col-xs-12 text-right">
+              <a href="tel:+919652609480">(+91) 9652609480</a>
+            </div>
+          </div>
+          
+          <div class="row margin-top-xs">
+            <div class="col-xs-12 text-right social-icon-header">
+              <a href="https://www.facebook.com/kushalarora24">
+                <img src="./img/facebook.png" class="img-responsive" alt="Facebook" title="Facebook" />
+              </a>
+              <a href="https://twitter.com/kushalarora24">
+                <img src="./img/twitter.png" class="img-responsive" alt="Twitter" title="Twitter" />
+              </a>
+              <a href="http://plnkr.co/users/kushalarora92">
+                <img src="./img/plnkr.jpg" class="img-responsive" alt="Plunker"  title="Plunker" />
+              </a>
+              <a href="http://stackoverflow.com/users/2562435/zest">
+                <img src="./img/stack-overflow.jpg" class="img-responsive" alt="Stack Overflow" title="Stack Overflow" />
+              </a>
+              <a href="https://github.com/kushalarora92">
+                <img src="./img/github.png" class="img-responsive" alt="Github" title="Github"/>
+              </a>
+              <a href="http://www.linkedin.com/in/kushal-arora">
+                <img src="./img/linkedin.jpg" class="img-responsive" alt="LinkedIn" title="LinkedIn" />
+              </a>
+            </div>
+          </div>
+
+          <div class="row margin-top-xs">
+            <div class="col-xs-4">
+              <div class="ps-top-to-bottom cursor-pointer" ng-class="{'selected' : currentState.name == 'app.about'}" ui-sref="app.about">
+                About
+              </div>
+            </div>
+
+            <div class="col-xs-4">
+              <div class="ps-top-to-bottom cursor-pointer" ng-class="{'selected' : currentState.name == 'app.portfolio'}" ui-sref="app.portfolio">
+                Portfolio
+              </div>
+            </div>
+
+            <div class="col-xs-3" ng-if="false">
+              <div class="ps-top-to-bottom cursor-pointer" ng-class="{'selected' : currentState.name == 'app.projects'}" ui-sref="app.projects">
+                Projects
+              </div>
+            </div>
+
+            <div class="col-xs-4">
+              <div class="ps-top-to-bottom cursor-pointer" ng-class="{'selected' : currentState.name == 'app.connect'}" ui-sref="app.connect">
+                Connect
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+      
+    <aside>
+        <div class="row">
+          <div class="col-xs-12 col-sm-5 my-image ">
+            <img src="./img/kushal.jpg" class="img-responsive">
+            <div class="margin-top-sm">
+              <div class="quote selected text-center">
+                "Inspired by Dreams, Powered by Reality"
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-7">
+            <div ui-view></div>
+          </div>
+        </div>
+    </aside>
+    <div class="margin-top-lg" align='center'><a><img src='http://www.hit-counts.com/counter.php?t=MTM5MzI3OA==' border='0' alt='Visitor Counter'></a><BR><span class="selected">Hit Count</span></div>
+</div>

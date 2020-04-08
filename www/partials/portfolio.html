@@ -1,0 +1,12 @@
+<div class="margin-top-md portfolio">
+	<div ng-repeat="(key, header) in data">
+		<blockquote class="left-to-right">
+		  <p>{{key}}</p>
+		  <footer ng-repeat="(k, val) in header"> 
+		  	<ul type="square">
+		  		<li><span ng-if="(k | getType) != 'number'"> {{k}} - </span> {{val}}</li>	
+		  	</ul>
+		  </footer>
+		</blockquote>
+	</div>
+</div>

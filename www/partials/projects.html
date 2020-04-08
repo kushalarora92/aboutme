@@ -1,0 +1,15 @@
+<div class="margin-top-md">
+	<div ng-repeat="(key, header) in data" class="margin-top-lg">
+		<h4 class="selected"> {{key}} </h4>
+		<div class="small">
+			<div class="pull-right sub-heading">
+				{{header.period}}
+			</div>
+			<span class="sub-heading">{{header.designation}}</span>
+
+			<div class="details margin-top-xs" ng-if="header.details" ng-repeat="(k, v) in header.details">
+				{{k}} - {{v}}
+			</div>
+		</div>
+	</div>
+</div>
