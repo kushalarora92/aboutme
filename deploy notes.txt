@@ -1,3 +1,1 @@
 appcfg.py -A aboutkushalarora -V v1 update ./
-
-http://aboutkushalarora.appspot.com
