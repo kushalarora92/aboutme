@@ -9,16 +9,21 @@ header{
 	background: linear-gradient(to bottom right, rgba(0,0,0,0.2), transparent);
 }
 
-header .my-sm-info{
+header .my-sm-info {
 
 }
 
-header .my-sm-info .name, .first-words .first-line{
+header .my-sm-info .name {
 	font-family: 'Lobster', cursive;
 	font-size: 55px;
 }
 
-header .my-sm-info .designation, .first-words .info{
+.first-words .intro .first-line {
+	font-family: 'Lobster', cursive;
+	font-size: 10rem;
+}
+
+header .my-sm-info .designation, .first-words .appreciation .info{
 	font-family: 'Mogra', cursive;
 	font-size: 19px;
 }
@@ -108,11 +113,14 @@ header .my-nav{
 }
 .connect .social img{
 	max-width: 50px;
+	margin-bottom: 0.5rem;
 }
 
 .connect .social a{
-	display: inline-block;
-	margin-left: 5px;
+	display: inline-flex;
+	margin-left: 1rem;
+	flex-direction: column;
+	align-items: center;
 }
 
 .social-icon-header img{
@@ -184,7 +192,8 @@ header .my-nav{
 
  .about-desc{
  	font-family: 'Mogra', cursive;
- 	font-size: large;
+	 font-size: large;
+	 margin-top: 1rem;
  }
 
  .color-black{
@@ -200,3 +209,23 @@ header .my-nav{
  	margin-left: 0.5em;
  	color: #337ab7;
  }
+
+@media screen and (max-width: 767px) {
+	header .my-sm-info {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 532px) and (max-width: 767px) {
+	.first-words .intro {
+		width: 50%;
+	}
+
+	.first-words .intro .first-line {
+		font-size: 8rem;
+	}
+
+	.first-words .appreciation {
+		width: 50%;
+	}
+}

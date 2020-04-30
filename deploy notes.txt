@@ -1,1 +1,3 @@
 appcfg.py -A aboutkushalarora -V v1 update ./
+
+https://cloud.google.com/appengine/docs/standard/python/getting-started/hosting-a-static-website

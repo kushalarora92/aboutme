@@ -1,12 +1,14 @@
 {
 	"Skills" : {
-		"Tech Known" : "HTML5, CSS3, JavaScript ES5 / ES6, Typescript, NodeJS, Webpack, Babel, JSX, Redux, Android, XML, JSON, Java, C, C++, Cordova",
-		"Databases" : "SQLite, SQL Server 2012, Cloud Db (Parse, Firebase)",
-		"Frameworks" : "AngularJS, ReactJS. Bootstrap, Ionic",
-		"Libraries": "jQuery, D3JS, Highcharts, JointJS, Lodash"
+		"Tech Known" : "HTML, CSS, JavaScript ES5 / ES6, Typescript, NodeJS, Webpack, Babel, JSX, Redux, Alexa, Android, XML, JSON, Java, C, C++, Cordova, Video Analytics (LFM-HVA), HVS, RabbitMQ, Kafka",
+		"Frameworks" : "Angular, VueJS , ReactJS. Bootstrap, Ionic, ExpressJS, Spring Boot, Dropwizard, Jira, Camunda",
+		"Libraries": "jQuery, D3JS, Highcharts, JointJS, Lodash, ArcGIS, ESRI Maps, Leaflet, Zuul, Eureka, HA Proxy",
+		"Databases" : "PostgreSQL, Mongo, MySQL, SQLite, Cloud Db (Parse, Firebase)",
+		"Analytics": "Newrelic, Prometheus, Grafana"
 	},
 	"Experience" : {
-		"Software Developer Consultant" : "Hitachi Consulting (Hyderabad, TS), Sept 2014 – Present"
+		"Senior Software Engineer":"ANI Technologies / Infobeans Technologies (Bengaluru, KA), Sep 2019 - Present",
+		"Senior Software Consultant" : "Hitachi Consulting (Hyderabad, TS), Sep 2014 – Sep 2019"
 	},
 	"Education" : {
 		"B.TECH (Information Technology)" : "Amity University (Noida, UP) | 2010-2014 | 76.80%",
@@ -14,19 +16,28 @@
 		"10th" : "DL DAV Model School (Delhi, DL) | 2007-2008 | 84.40%"	
 	},
 	"Achievements & Certificates" : [
-		"Top Rated Employee (2016)",
-		"Trained in Ionic, Android, AngularJS frameworks (2015 16)",
+		"Opportunity to represent Hitachi at World Economic Forum, Davos, Switzerland (2018)",
+		"Opportunity to represent Hitachi at Partnership Summit, Vizag (2018)",
+		"Annual Award – Solutions Excellence (2017-2018)",
+		"Strong Performer (Q4 2017-2018)",
+		"Quarterly Team Award – MGRM (Q4 2017-2018)",
+		"Quarterly Team Award – APRTG (Q4 2017-2018)",
+		"Pioneering Spirit Regional Level – Hitachi Inspiration of the Year (2017)",
+		"App with Best Technical Implementation – Mobility Hackathon (Jan’16)",
+		"Sparkle Award Winner (Oct’15)",
+		"Mutant Player Award winner (Sept’15)",
 		"Recommended candidate for Indian Navy (2014)",
 		"Summer Internship in Android for 2 months at eLabs India Pvt Ltd (2013)",
-		"Learned Core Java for 2 months at HCL Career Development Centre (2011)"
+		"Interned on Java In-house Project for 2 months at HCL Career Development Centre (2011)"
 	],
 	"Summary" : [
-		"2 years of working exposure to web & mobile world with experience in building User interfaces, Web applications, Websites, RIAs and Mobile apps.",
-		"Technically proficient in frameworks like AngularJS, Bootstrap & Ionic.",
+		"Close to 6 years of working exposure to web technologies with experience in building User interfaces, Web applications, Websites - backend & frontend, RIAs and Mobile apps.",
+		"Technically proficient in frameworks like Angular, Node, VueJS",
+		"Seasoned Technology Enthusiast with versatile experience around delivery and consultation.",
+		"Active participant in Workflow discussions, Client Interactions, Database Designing, Architecting solution and overall project estimates & planning",
 		"Strong concepts of User Experience, User Centric Design and Responsive Web Design.",
 		"Good understanding of SDLC, Scrum Methodology, & other IT Operations.",
 		"Excellent in team collaboration, adaptation and problem solving along with good communication skills.",
-		"Have successfully delivered over 5 mobile applications & 2 web applications for internal / client / prospect customers.",
 		"Uptodate with market trends. Got working experience in Bluetooth Beacons."
 	]
 }
